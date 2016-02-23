@@ -204,7 +204,7 @@ body {
 	border-radius: 8px;
 }
 
-.ringkasan-artikel {
+.out-artikel {
 	width: 96%;
 	height: auto;
 	float: left;
@@ -212,6 +212,20 @@ body {
 	background: rgba(198, 255, 251, 0.54);
 }
 
+#photo-artikel {
+	background: pink;
+	width: 46%;
+	height:200px;
+	float: left;
+	margin: 5px 25%;
+}
+
+#artikelnya {
+	width: 76%;
+	height: auto;
+	float: left;
+	margin: 5px 10%;
+}
 .rightKet {
 	width: 30%;
 	height: 250px;
