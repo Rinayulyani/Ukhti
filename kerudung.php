@@ -35,20 +35,25 @@
 			</form>
 		</div>
 		<div id="wrapper">
-			<a href="pakaian.php"><div class="pakaian"></div></a>
-			<div class="box">
-				<a href="kerudung.php"><div id="kerudung"></div></a>
-				<div id="box1">
-					<a href="aksesoris.php"><div class="aksesoris"></div></a>
-					<a href="makanan.php"><div class="makanan"></div></a>
+			<div class="out-toko">
+				<div class="pakai">
+					<div id="baju"></div>
+					<div id="baju"></div>
+					<div id="baju"></div>
+					<div id="baju1"></div>
 				</div>
-			</div>
-			<div class="box">
-				<div id="box2">
-					<a href="tas.php"><div class="tas"></div></a>
-					<a href="dll.php"><div class="dll"></div></a>
+				<div class="pakai">
+					<div id="baju"></div>
+					<div id="baju"></div>
+					<div id="baju"></div>
+					<div id="baju1"></div>
 				</div>
-				<a href="sepatu.php"><div id="sepatu"></div></a>
+				<div class="pakai">
+					<div id="baju"></div>
+					<div id="baju"></div>
+					<div id="baju"></div>
+					<div id="baju1"></div>
+				</div>
 			</div>
 		</div>
 		<div id="footer">
