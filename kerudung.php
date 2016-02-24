@@ -1,7 +1,7 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
-	<title>Jual Beli</title>
+	<title>Kerudung</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
 </head>
@@ -22,7 +22,7 @@
 			<div class="nav">
 				<ul>
 					<div class="nav-in"><li><a href="jubel.php">Toko</a></li></div>
-					<div class="nav-in"><li><a href="kisah.php">Kisah</a></li></div>
+					<div class="nav-in"><li><a href="artikel.php">Artikel</a></li></div>
 					<div class="nav-in"><li><a href="tutorial.php">Tutorial</a></li></div>
 					<div class="nav-in"><li><a href="hadits.php">Hadits</a></li></div>
 				</ul>

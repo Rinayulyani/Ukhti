@@ -22,7 +22,7 @@
 			<div class="nav">
 				<ul>
 					<div class="nav-in"><li><a href="jubel.php">Toko</a></li></div>
-					<div class="nav-in"><li><a href="kisah.php">Kisah</a></li></div>
+					<div class="nav-in"><li><a href="artikel.php">Artikel</a></li></div>
 					<div class="nav-in"><li><a href="tutorial.php">Tutorial</a></li></div>
 					<div class="nav-in"><li><a href="hadits.php">Hadits</a></li></div>
 				</ul>
