@@ -22,7 +22,7 @@
 			<div class="nav">
 				<ul>
 					<div class="nav-in"><li><a href="jubel.php">Toko</a></li></div>
-					<div class="nav-in"><li><a href="kisah.php">Kisah</a></li></div>
+					<div class="nav-in"><li><a href="artikel.php">Artikel</a></li></div>
 					<div class="nav-in"><li><a href="tutorial.php">Tutorial</a></li></div>
 					<div class="nav-in"><li><a href="hadits.php">Hadits</a></li></div>
 				</ul>
@@ -30,9 +30,10 @@
 		</div>
 		<div id="search">
 			<form>
-				<input type="text" name="" placeholder="Search"></input>
-				<input type="submit" name="search" value=""></input>
+				<input type="text" name="input-search" placeholder="Search" class="text"></input>
+				<input type="submit" name="search" value="" class="submit"></input>
 			</form>
+		</div>
 		</div>
 		<div id="wrapper">
 			<div class="wrap">
@@ -41,7 +42,7 @@
 						<div class="judul-artikel">
 							HR. Muslim no. 1467
 						</div>
-						<div class="ringkasan-artikel">
+						<div class="out-artikel">
 							Abdullah bin Amr radhiyallahu'anhuma meriwayatkan sabda Rasulullah Shalallahu'alaihi wa sallam : "Sesungguhnya dunia itu adalah perhiasan dan sebaik-baik perhiasan dunia adalah wanita shalihah."
 						</div>
 					</div>
@@ -49,7 +50,7 @@
 						<div class="judul-artikel">
 							HR. Al-Bukhari no. 5090 dan Muslim no. 1466
 						</div>
-						<div class="ringkasan-artikel">
+						<div class="out-artikel">
 							Rasulullah Shalallahu'alaihi wa sallam bersabda bagi lelaki yang ingin menikah : "Wanita itu dinikahi karena empat perkara yaitu karena hartanya, karena keturunannya, karena kecantikannya, dan karena agamanya. Maka pilihlah olehmu wanita yang punya agama, engkau akan beruntung."
 						</div>
 					</div>
@@ -57,7 +58,7 @@
 						<div class="judul-artikel">
 							HR. Bukhari dan Muslim
 						</div>
-						<div class="ringkasan-artikel">
+						<div class="out-artikel">
 							Al Bukhari meriwayatkan dari Abu Hurairah radhiyallahu'anhu dari Nabi Shallallhu'alaihi wa sallam, beliau bersabda, yang artinya :
 							Barangsiapa yang beriman kepada Allah dan hari Akhir, janganlah ia mengganggu tetangganya, dan berbuat baiklah kepada wanita. Sebab, mereka diciptakan dari tulang rusuk, dan tulang rusuk yang paling bengkok adalah bagian atasnya. Jika engkau meluruskannya, maka engkau mematahkannya dan jika engkau biarkan, maka akan tetap bengkok. Oleh karena itu, berbuatlah baik kepada wanita."
 						</div>
@@ -66,7 +67,7 @@
 						<div class="judul-artikel">
 							HR. Ahmad 1/191, dishahihkan Asy-Syaikh Al Albani rahimahullah dalam Shahihul Jami' no. 660, 661
 						</div>
-						<div class="ringkasan-artikel">
+						<div class="out-artikel">
 							Rasulullah Shalallahu'alaihi wa sallam bersabda : "Apabila seorang wanita shalat lima waktu, puasa sebulan (Ramadhan), menjaga kemaluannya dan taat kepada suaminya, maka dikatakan kepadanya : Masuklah engkau ke dalam surga dari pintu mana saja yang engkau sukai."
 						</div>
 					</div>
@@ -74,7 +75,7 @@
 						<div class="judul-artikel">
 							HR. An-Nasaii ibnu Khuzaimah dan ibnu Hibban
 						</div>
-						<div class="ringkasan-artikel">
+						<div class="out-artikel">
 							Rasulullah shalallahu'alaihi wa sallam bersabda : "Siapa saja wanita yang memakai wangi-wangian kemudian melewati suatu kaum supaya mereka itu mencium baunya, maka wanita itu telah dianggap melakukan zina dan tiap-tiap mata ada zina."
 						</div>
 					</div>
@@ -92,11 +93,10 @@
 		<div id="footer">
 			<div class="contact">
 				<div id="logoF">Ukhti</div>
-				<div id="kontak">Facebook</div>
-				<div id="kontak">Twitter</div>
-				<div id="kontak">E-mail</div>
+				<a href="https://www.facebook.com/ukhtiwebsiteinformation/?ref=aymt_homepage_panel" target="_blank"><div id="kontak">Facebook</div></a>
+				<a href="https://twitter.com/Ukhti19f" target="_blank"><div id="kontak">Twitter</div></a>
+				<div id="kontak">ukhti19f16@gmail.com</div>
 				<div id="kontak">No. Kontak</div>
-				<div id="copyright">Ukhti &copy 2016</div>
 			</div>
 			<div class="info">
 				<div id="judul">Partner</div>
@@ -117,6 +117,7 @@
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</div>
 			</div>
+			<div class="copyright">Ukhti &copy 2016</div>
 		</div>
 	</div>
 </body>

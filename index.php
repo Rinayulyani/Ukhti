@@ -35,7 +35,7 @@
 			<div class="nav">
 				<ul>
 					<div class="nav-in"><li><a href="jubel.php">Toko</a></li></div>
-					<div class="nav-in"><li><a href="kisah.php">Kisah</a></li></div>
+					<div class="nav-in"><li><a href="artikel.php">Artikel</a></li></div>
 					<div class="nav-in"><li><a href="tutorial.php">Tutorial</a></li></div>
 					<div class="nav-in"><li><a href="hadits.php">Hadits</a></li></div>
 				</ul>
@@ -79,7 +79,6 @@
 				<a href="https://twitter.com/Ukhti19f" target="_blank"><div id="kontak">Twitter</div></a>
 				<div id="kontak">ukhti19f16@gmail.com</div>
 				<div id="kontak">No. Kontak</div>
-				<div id="copyright">Ukhti &copy 2016</div>
 			</div>
 			<div class="info">
 				<div id="judul">Partner</div>
@@ -100,6 +99,7 @@
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</div>
 			</div>
+			<div class="copyright">Ukhti &copy 2016</div>
 		</div>
 	</div>
 </body>
