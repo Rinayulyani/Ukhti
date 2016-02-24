@@ -460,7 +460,7 @@ body {
 	background: #FFE6FF;
 	padding: 25px 9%;
 	margin-top: 20px;
-	z-index: 1;
+	border-top: solid 4px #FF81E5;
 	background-size: 100% auto;
 }
 

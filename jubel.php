@@ -30,7 +30,7 @@
 		</div>
 		<div id="search">
 			<form>
-				<input type="text" name=""></input>
+				<input type="text" name="input-search" placeholder="Search" class="text"></input>
 				<select name="kategori">
 					<option value="Pakaian">Pakaian</option>
 					<option value="Kerudung">Kerudung</option>
@@ -40,7 +40,7 @@
 					<option value="Sepatu">Sepatu</option>
 					<option value="dll">Lainnya</option>
 				</select>
-				<input type="submit" name="search" value=""></input>
+				<input type="submit" name="search" value="" class="submit"></input>
 			</form>
 		</div>
 		<div id="wrapper">

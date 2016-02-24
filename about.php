@@ -30,8 +30,8 @@
 		</div>
 		<div id="search">
 			<form>
-				<input type="text" name="" placeholder="Search"></input>
-				<input type="submit" name="search" value=""></input>
+				<input type="text" name="input-search" placeholder="Search" class="text"></input>
+				<input type="submit" name="search" value="" class="submit"></input>
 			</form>
 		</div>
 		<div id="wrapper">
