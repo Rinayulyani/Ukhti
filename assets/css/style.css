@@ -453,6 +453,94 @@ body {
 	margin: 10px 5% 0px 5%;
 }
 
+.namauser {
+	background: #00C9FF;
+	width: 100%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	font-size: 50px;
+	border-radius: 8px;
+}
+
+.phobiouser {
+	width: 30%;
+	height: auto;
+	float: left;
+	margin-top: 5px;
+}
+
+#photouser {
+	background: cyan;
+	width: 85%;
+	height: 250px;
+	float: left;
+	padding: 2px 2%;
+	margin: 10px 5%;
+}
+
+#biodatauser {
+	width: 85%;
+	height: auto;
+	float: left;
+	padding: 2px 2%;
+	margin: 10px 5%;
+}
+
+.contentuser {
+	width: 68%;
+	height: auto;
+	float: left;
+	margin: 5px 0px 0px 2%;
+}
+
+#navuser {
+	background: cyan;
+	width :96%;
+	height: auto;
+	float: left;
+	padding: 8px 2%;
+}
+
+#menuuser {
+	width: 25%;
+	height: auto;
+	float: left;
+	box-shadow: 2px 0px 8px 1px #168CFF;
+}
+
+#menuuser ul {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+#menuuser ul li {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+#menuuser ul li a {
+	display: block;
+	color: #0042FF;
+	padding: 10px 0px;
+	text-decoration: none;
+}
+
+#menuuser ul li a:hover{
+	color: #FF1E27;
+	background: #FFE6FF;
+	border-radius: 21px 21px 0px 0px;
+	box-shadow: 2px 0px 8px 1px #f697c6;
+}
+.out-profil { 
+	width: 90%; 
+	height: auto;
+	float: left;
+	margin: 5px 0%;
+	padding-left: 10%;
+}
 #footer {
 	width: 82%;
 	height: auto;
