@@ -166,7 +166,8 @@ body {
 #wrapper {
 	width: 82%;
 	height: auto;
-	margin: 0px auto;
+	margin: 0px 9%;
+	float: left;
 }
 
 .wrap {
@@ -185,7 +186,8 @@ body {
 #js {
 	width: 94%;
 	height: auto;
-	margin: 0px auto;
+	margin: 0px 3%;
+	float: left;
 }
 
 #artikel {
@@ -536,7 +538,8 @@ body {
 #out-logo {
 	width: 92%;
 	height: auto;
-	margin: 0px auto;
+	margin: 0px 4%;
+	float: left;
 }
 
 .logoP {
