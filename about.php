@@ -61,18 +61,10 @@
 		<div id="footer">
 			<div class="contact">
 				<div id="logoF">Ukhti</div>
-				<div id="kontak">
-					<a href=""><div class="fb"><img src="assets/images/fb.png"></div></a>
-				</div>
-				<div id="kontak">
-					<a href=""><div class="twitt"><img src="assets/images/twitt.png"></div></a>
-				</div>
-				<div id="kontak">
-					<div class="mail"><img src="assets/images/g+.png"></div>
-				</div>
-				<div id="kontak">
-					<div class="no-kontak"><img src="assets/images/kontak.png"></div>
-				</div> 
+				<a href="https://www.facebook.com/ukhtiwebsiteinformation/?ref=aymt_homepage_panel" target="_blank"><div id="kontak">Facebook</div></a>
+				<a href="https://twitter.com/Ukhti19f" target="_blank"><div id="kontak">Twitter</div></a>
+				<div id="kontak">ukhti19f16@gmail.com</div>
+				<div id="kontak">No. Kontak</div>
 			</div>
 			<div class="info">
 				<div id="judul">Partner</div>
