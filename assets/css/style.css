@@ -457,7 +457,7 @@ body {
 	width: 82%;
 	height: auto;
 	float: left;
-	background: url(../images/footer.jpg);
+	background: #FFE6FF;
 	padding: 25px 9%;
 	margin-top: 20px;
 	z-index: 1;
@@ -517,17 +517,6 @@ body {
 	margin: 0px 50% 8px 0px;
 }
 
-#copyright {
-	width: 91%;
-	height: auto;
-	float: left;
-	text-align: right;
-	padding: 0px 6% 0px 0px;
-	margin: 16px 3% 0px 0px;
-	color: #FF81E5;
-	font-size: 22px;
-}
-
 .info {
 	width: 30%;
 	height: auto;
@@ -566,6 +555,20 @@ body {
 	padding: 0px 12% 0px 6%;
 }
 
+.copyright {
+	width: 100%;
+	height: auto;
+	float: left;
+	text-align: center;
+	padding: 8px 0%;
+	margin: 16px 3% 0px 0px;
+	color: #FF81E5;
+	font-size: 22px;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-radius: 8px;
+}
+
 
 /*Form Style*/
 
@@ -583,5 +586,5 @@ body {
 	background: url(../images/search.png);
 	margin-right: 3%;
 	border-radius: 8px;
-	background-size: 2.5% 5.5%;
+	background-size: 2.5% 30px;
 }
