@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/images/themes/light/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="assets/images/themes/dark/dark.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="assets/images/themes/bar/bar.css" type="text/css" media="screen" />
-    <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div class="all-wrapper">
