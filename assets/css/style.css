@@ -173,6 +173,7 @@ body {
 	width: 100%;
 	height: auto;
 	float: left;
+	font-family: "Handlee";
 }
 
 .content {
@@ -309,6 +310,36 @@ body {
     -moz-background-size: 30% 285px;
     -o-background-size: 30% 285px;
     background-size: 30% 285px;
+}
+
+.out-toko {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.pakai {
+	width: 96%;
+	height: 150px;
+	margin: 10px 2%;
+	float: left;
+}
+
+#baju {
+	background: pink;
+	width: 23.5%;
+	height: 150;
+	margin: 0px 2% 0px 0px;
+	float: left;
+	border-radius: 8px;
+}
+
+#baju1 {
+	background: pink;
+	width: 23.5%;
+	height: 150;
+	float: right;
+	border-radius: 8px;
 }
 
 .box {
