@@ -329,7 +329,7 @@ body {
 #baju {
 	background: pink;
 	width: 23.5%;
-	height: 150;
+	height: 150px;
 	margin: 0px 2% 0px 0px;
 	float: left;
 	border-radius: 8px;
@@ -338,7 +338,7 @@ body {
 #baju1 {
 	background: pink;
 	width: 23.5%;
-	height: 150;
+	height: 150px;
 	float: right;
 	border-radius: 8px;
 }
