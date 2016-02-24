@@ -477,26 +477,43 @@ body {
 }
 
 .fb {
-	width: 8%;
-	height: 23px;
+	width: 19%;
+	height: auto;
 	float: left;
-	background: url(../images/fb.jpg);
-	-webkit-background-size: 8% 23px;
-	-moz-background-size: 8% 23px;
-	-o-background-size: 8% 23px;
-	background-size: 8% 23px;
+	-webkit-background-size: 19% auto;
+	-moz-background-size: 19% auto;
+	-o-background-size: 19% auto;
+	background-size: 19% auto;
 }
 
 .twitt {
-	width: 5%;
-	height: 4px;
+	width: 19%;
+	height: auto;
 	float: left;
+	-webkit-background-size: 19% auto;
+	-moz-background-size: 19% auto;
+	-o-background-size: 19% auto;
+	background-size: 19% auto;
 }
 
 .mail {
-	width: 5%;
-	height: 4px;
+	width: 19%;
+	height: auto;
 	float: left;
+	-webkit-background-size: 19% auto;
+	-moz-background-size: 19% auto;
+	-o-background-size: 19% auto;
+	background-size: 19% auto;
+}
+
+.no-kontak {
+	width: 19%;
+	height: auto;
+	float: left;
+	-webkit-background-size: 19% auto;
+	-moz-background-size: 19% auto;
+	-o-background-size: 19% auto;
+	background-size: 19% auto;
 }
 
 #logoF {
