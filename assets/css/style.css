@@ -49,7 +49,6 @@ body {
 	width: 100%;
 	height: auto;
 	float: left;
-	margin-bottom: 40px;
 	box-shadow: 0px 0px 25px 0px #006FFF;
 	background: url(../images/header.png);
 	background-size: 97% 400px;
@@ -591,52 +590,6 @@ body {
 	float: left;
 }
 
-#kontak {
-	width: 5%;
-	height: 4px;
-	float: left;
-}
-
-.fb {
-	width: 19%;
-	height: auto;
-	float: left;
-	-webkit-background-size: 19% auto;
-	-moz-background-size: 19% auto;
-	-o-background-size: 19% auto;
-	background-size: 19% auto;
-}
-
-.twitt {
-	width: 19%;
-	height: auto;
-	float: left;
-	-webkit-background-size: 19% auto;
-	-moz-background-size: 19% auto;
-	-o-background-size: 19% auto;
-	background-size: 19% auto;
-}
-
-.mail {
-	width: 19%;
-	height: auto;
-	float: left;
-	-webkit-background-size: 19% auto;
-	-moz-background-size: 19% auto;
-	-o-background-size: 19% auto;
-	background-size: 19% auto;
-}
-
-.no-kontak {
-	width: 19%;
-	height: auto;
-	float: left;
-	-webkit-background-size: 19% auto;
-	-moz-background-size: 19% auto;
-	-o-background-size: 19% auto;
-	background-size: 19% auto;
-}
-
 #logoF {
 	width: 100%;
 	height: auto;
@@ -648,17 +601,17 @@ body {
 }
 
 #kontak {
-	width: 50%;
+	width: 13%;
 	height: auto;
 	float: left;
-	border-bottom: solid 1px #929292;
-	margin: 0px 50% 8px 0px;
+	margin-right: 4px;
 }
 
 .info {
-	width: 30%;
+	width: 33%;
 	height: auto;
 	float: left;
+	padding: 0px 0.165%;
 }
 
 #judul {
