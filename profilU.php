@@ -47,7 +47,7 @@
 							<div id="menuuser"><li><a href="jubel.php">Toko</a></li></div>
 							<div id="menuuser"><li><a href="kisah.php">Artikel</a></li></div>
 							<div id="menuuser"><li><a href="tutorial.php">Tutorial</a></li></div>
-							<div id="menuuser"><li><a href="hadits.php">Artikel</a></li></div>
+							<div id="menuuser"><li><a href=>Arsip</a></li></div>
 						</ul>
 					</div>
 					<div class="out-profil">
