@@ -231,8 +231,40 @@ body {
 }
 .rightKet {
 	width: 30%;
-	height: 250px;
+	height: auto;
 	float: left;
+}
+
+.bs-docs-sidebar {
+	display: none;
+}
+
+.sidebar {
+	list-style: none;
+	display: none;
+	padding-bottom: 10px;
+}
+
+.sidebar ul {
+	display: none;
+}
+
+.sidebar ul li {
+	position: relative;
+	display: block;
+}
+
+.sidebar ul li a {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 30px;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.sidebar li ul {
+	position: relative;
+	display: block;
 }
 
 #ket {

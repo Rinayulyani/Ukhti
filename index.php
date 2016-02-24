@@ -66,7 +66,64 @@
 					<div id="arsip">
 						<div class="judul">Arsip</div>
 						<div class="isi-arsip">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						        <ul>
+						            <li>
+						  				<a href="#arsip2016">2016</a>
+						  				<ul class="sidebar">
+										    <li><a href="#januari">Januari</a>
+										    	<ul>
+										    		<li>...</li>
+										    	</ul>
+										    </li>
+										    <li><a href="#febuari">Febuari</a></li>
+										    <li><a href="#maret">Maret</a></li>
+										    <li><a href="#apri">Apri</a></li>
+										    <li><a href="#mei">Mei</a></li>
+										    <li><a href="#juni">Juni</a></li>
+										    <li><a href="#juli">Juli</a></li>
+										    <li><a href="#agustus">Agustus</a></li>
+										    <li><a href="#september">September</a></li>
+										    <li><a href="#oktober">Oktober</a></li>
+										    <li><a href="#november">November</a></li>
+										    <li><a href="#desember">Desember</a></li>
+										  </ul>
+									</li>
+						            <li>
+						  				<a href="#arsip2015">2015</a>
+						  				<ul class="sidebar">
+										    <li><a href="#januari">Januari</a></li>
+										    <li><a href="#febuari">Febuari</a></li>
+										    <li><a href="#maret">Maret</a></li>
+										    <li><a href="#apri">Apri</a></li>
+										    <li><a href="#mei">Mei</a></li>
+										    <li><a href="#juni">Juni</a></li>
+										    <li><a href="#juli">Juli</a></li>
+										    <li><a href="#agustus">Agustus</a></li>
+										    <li><a href="#september">September</a></li>
+										    <li><a href="#oktober">Oktober</a></li>
+										    <li><a href="#november">November</a></li>
+										    <li><a href="#desember">Desember</a></li>
+										  </ul>
+									</li>
+						            <li>
+						  				<a href="#arsip2014">2014</a>
+						  				<ul class="sidebar">
+										    <li><a href="#januari">Januari</a></li>
+										    <li><a href="#febuari">Febuari</a></li>
+										    <li><a href="#maret">Maret</a></li>
+										    <li><a href="#apri">Apri</a></li>
+										    <li><a href="#mei">Mei</a></li>
+										    <li><a href="#juni">Juni</a></li>
+										    <li><a href="#juli">Juli</a></li>
+										    <li><a href="#agustus">Agustus</a></li>
+										    <li><a href="#september">September</a></li>
+										    <li><a href="#oktober">Oktober</a></li>
+										    <li><a href="#november">November</a></li>
+										    <li><a href="#desember">Desember</a></li>
+										  </ul>
+									</li>
+						        </ul>
+						    </nav>
 						</div>
 					</div>
 				</div>
