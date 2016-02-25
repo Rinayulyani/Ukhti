@@ -57,19 +57,20 @@
 			</div>
 		</div>
 		<div id="footer">
-			<div class="contact">
-			<div id="kontak">
-					<a href=""><div class="fb"><img src="assets/images/fb.png"></div></a>
-				</div>
+			<div id="logoF"><a href="index.php"> Ukhti </a></div>
+			<div class="info">
 				<div id="kontak">
-					<a href=""><div class="twitt"><img src="assets/images/twitt.png"></div></a>
+					<a href="https://www.facebook.com/ukhtiwebsiteinformation/?ref=aymt_homepage_panel"><div id="icon-fb"></div></a>
+					<a href=""><div id="icon-twitt"></div></a>
+					<div id="icon-g"></div>
+					<div id="icon-kontak"></div></div>
+				<div id="subscribe">
+					<div class="judul-subscribe">Berlangganan Artikel di Ukhti Yuu..</div>
+					<form class="form-subscribe">
+						<input name="mail" placeholder="Your E-mail Address" class="input-subscribe" type="email">
+						<input name="subscribe" value="Subscribe Now!" class="submit-subscribe" type="submit">
+					</form>
 				</div>
-				<div id="kontak">
-					<div class="mail"><img src="assets/images/g+.png"></div>
-				</div>
-				<div id="kontak">
-					<div class="no-kontak"><img src="assets/images/kontak.png"></div>
-				</div> 
 			</div>
 			<div class="info">
 				<div id="judul">Partner</div>

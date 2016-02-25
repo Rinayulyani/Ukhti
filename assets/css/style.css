@@ -647,26 +647,95 @@ body {
 	margin-bottom: 16px;
 	font-family: "Vladimir Script";
 	font-size: 56px;
+}
+
+#logoF a {
+	list-style: none;
+	text-decoration: none;
 	color: #FF81E5;
 }
 
 #kontak {
-	width: 100%;
+	width: 48%;
 	float: left;
 	height: auto;
+	margin: 2px 26%;
 }
 
-#icon {
-	width: 13%;
-	height: auto;
+#icon-fb {
+	width: 22%;
+	height: 42px;
 	float: left;
-	margin-right: 4px;
+	margin-right: 3%;
+	background: url(../images/fb.png);
+        -webkit-background-size: 100% 42px;
+        -moz-background-size: 100% 42px;
+        -o-background-size: 100% 42px;
+        background-size: 100% 42px;
+	border-radius: 8px;
+}
+
+#icon-twitt {
+	width: 22%;
+	height: 42px;
+	float: left;
+	margin-right: 3%;
+	background: url(../images/twitt.png);
+        -webkit-background-size: 100% 42px;
+        -moz-background-size: 100% 42px;
+        -o-background-size: 100% 42px;
+        background-size: 100% 42px;
+	border-radius: 8px;
+}
+
+#icon-g {
+	width: 22%;
+	height: 42px;
+	float: left;
+	margin-right: 3%;
+	background: url(../images/g+.png);
+        -webkit-background-size: 100% 42px;
+        -moz-background-size: 100% 42px;
+        -o-background-size: 100% 42px;
+        background-size: 100% 42px;
+	border-radius: 8px;
+}
+
+#icon-kontak {
+	width: 22%;
+	height: 42px;
+	float: left;
+	margin-right: 3%;
+	background: url(../images/kontak.png);
+        -webkit-background-size: 100% 42px;
+        -moz-background-size: 100% 42px;
+        -o-background-size: 100% 42px;
+        background-size: 100% 42px;
+	border-radius: 8px;
 }
 
 #subscribe {
-	width: 100%;
+	width: 90%;
 	height: auto;
 	float: left;
+	margin-top: 16px;
+	padding: 4px 4% 16px;
+	border: 5px solid #ff81e5;
+	border-radius: 8px;
+}
+
+.judul-subscribe {
+	width: 89%;
+	height: auto;
+	float: left;
+	padding: 8px 4%;
+	background: #ffaeee;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px 2px #ff8ee8;
+	border-right: solid 4px #fff;
+	border-bottom: solid 4px #fff;
+	color: #fff;
+	font-size: 18px;
 }
 
 .info {
@@ -680,8 +749,7 @@ body {
 	width: 84%;
 	height: auto;
 	float: left;
-	font-size: 25px;
-	border-bottom: solid 1px #000;
+	font-size: 30px;
 	margin: 0px 11% 22px 2%;
 	padding-left: 3%;
 }
@@ -695,7 +763,7 @@ body {
 
 .logoP {
 	width: 19%;
-	height: 58px;
+	height: 64px;
 	float: left;
 	margin: 0px 4% 15px 0px;
 	background: #fff;
@@ -743,6 +811,45 @@ body {
 	background-size: 2.5% 30px;
 }
 
+<<<<<<< HEAD
+.form-subscribe {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.input-subscribe {
+	width: 98%;
+	padding: 10px;
+	border: solid #FF81E5 1px;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px 2px #ff8ee8;
+	margin-bottom: 11px;
+	font-family: "Handlee";
+	font-size: 16px;
+	float: left;
+	border-top-color: #fff;
+}
+
+.submit-subscribe {
+	width: 35%;
+	border: solid #FF81E5 1px;
+	border-radius: 9px;
+	margin-right: 2%;
+	padding: 6px 2%;
+	background: #FFAEEE;
+	color: #FFF;
+	font-family: "Handlee";
+	font-weight: bold;
+	font-size: 16px;
+	float: right;
+	box-shadow: 0px 0px 2px 2px #ffafef;
+}
+
+.submit-subscribe:hover {
+	color: #FFAEEE;
+	background: #fff;
+=======
 .login-email {
 	width: 50%;
 	height: 40px;
@@ -779,4 +886,5 @@ body {
 	background: rgba(198, 255, 251, 0.54);
 	color: #2A00FF;
 	border-radius: 8px;
+>>>>>>> 311e91466b50afb0f43be8bfae154785fc04be0b
 }

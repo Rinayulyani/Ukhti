@@ -73,11 +73,7 @@
 						            <li>
 						  				<a href="#arsip2016">2016</a>
 						  				<ul class="sidebar">
-										    <li><a href="#januari">Januari</a>
-										    	<ul>
-										    		<li>...</li>
-										    	</ul>
-										    </li>
+										    <li><a href="#januari">Januari</a></li>
 										    <li><a href="#febuari">Febuari</a></li>
 										    <li><a href="#maret">Maret</a></li>
 										    <li><a href="#apri">Apri</a></li>
@@ -133,16 +129,19 @@
 			</div>
 		</div>
 		<div id="footer">
+			<div id="logoF"><a href="index.php"> Ukhti </a></div>
 			<div class="info">
-				<div id="logoF">Ukhti</div>
 				<div id="kontak">
-					<a href=""><div id="icon"><img src="assets/images/fb.png"></div></a>
-					<a href=""><div id="icon"><img src="assets/images/twitt.png"></div></a>
-					<div id="icon"><img src="assets/images/g+.png"></div>
-					<div id="icon"><img src="assets/images/kontak.png"></div>
-				</div>
+					<a href="https://www.facebook.com/ukhtiwebsiteinformation/?ref=aymt_homepage_panel"><div id="icon-fb"></div></a>
+					<a href=""><div id="icon-twitt"></div></a>
+					<div id="icon-g"></div>
+					<div id="icon-kontak"></div></div>
 				<div id="subscribe">
-					<form></form>
+					<div class="judul-subscribe">Berlangganan Artikel di Ukhti Yuu..</div>
+					<form class="form-subscribe">
+						<input name="mail" placeholder="Your E-mail Address" class="input-subscribe" type="email">
+						<input name="subscribe" value="Subscribe Now!" class="submit-subscribe" type="submit">
+					</form>
 				</div>
 			</div>
 			<div class="info">
