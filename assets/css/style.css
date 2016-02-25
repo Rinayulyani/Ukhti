@@ -228,6 +228,100 @@ body {
 	float: left;
 	margin: 5px 10%;
 }
+
+#tulis {
+	width: 90%;
+	height: auto;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.tanggal {
+	width: 30%;
+	height: 13px;
+	float: left;
+	background: #00C9FF;
+	padding: 8px 2%;
+	border-radius: 21px 21px 0px 0px;
+	margin-left: 2px;
+}
+
+.title {
+	width: 92%;
+	height: auto;
+	float: left;
+	padding: 8px 4%;
+	background:cyan;
+	border-radius: 4px;
+}
+
+#out-tulisan {
+	width: 86%;
+	height: auto;
+	padding: 8px 2%;
+	float: left;
+	background: rgba(198, 255, 251, 0.54);
+}
+
+.foto1 {
+	width: 48%;
+	height: 202px;
+	float: left;
+	margin: 5px 25%;
+	background: green;
+}
+
+.tulisan {
+	width: 80%;
+	height: auto;
+	margin: 5px 10%;
+}
+
+#tampil-komentar {
+	width: 90%;
+	height: auto;
+}
+
+#comment {
+	width: 90%;
+	height: auto;
+	float: left;
+	margin-top: 47px;
+	margin-bottom: 2%;
+	border-radius: 8px;
+}
+
+/* form komentar */
+
+.text1 {
+	width: 64%;
+	height: 32px;
+	border-radius: 6px;
+	border: solid #00C9FF 1px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 2%;
+}
+
+.text2 {
+	width: 64%;
+	height: 130px;
+	border-radius: 6px;
+	border: solid #00C9FF 1px;
+	margin-top: 2%;
+	float: left;
+	margin-left: 30px;
+}
+
+.kirim {
+	width: 8%;
+	height: 28px;
+	float: left;
+	margin-left: 36px;
+	margin-top: 22%;
+	border-radius: 13px; 
+}
+
 .rightKet {
 	width: 30%;
 	height: auto;
