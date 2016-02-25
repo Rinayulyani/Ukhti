@@ -604,6 +604,25 @@ body {
 	margin: 5px 0%;
 	padding-left: 10%;
 }
+ /*log-in*/
+.out-login {
+	width: 80%;
+	height: 500px;
+	float: left;
+	margin: 0px 10%;
+}
+
+#log-in {
+	background: #A3ECFF;
+	width: 50%;
+	height: 200px;
+	margin: 180px 25% 120px 25%;
+	float: left;
+	border-radius: 10px;
+	box-shadow: 0px 0px 14px 0px #05C1FF;
+	border: solid 5px #05C1FF;
+}
+
 #footer {
 	width: 82%;
 	height: auto;
@@ -792,6 +811,7 @@ body {
 	background-size: 2.5% 30px;
 }
 
+<<<<<<< HEAD
 .form-subscribe {
 	width: 100%;
 	height: auto;
@@ -829,4 +849,39 @@ body {
 .submit-subscribe:hover {
 	color: #FFAEEE;
 	background: #fff;
+=======
+.login-email {
+	width: 50%;
+	height: 40px;
+	padding: 2%;
+	margin: 30px 25% 10px 25%;
+	border-radius: 8px;
+}
+
+.login-password{
+	width: 50%;
+	height: 40px;
+	padding: 2%;
+	margin: 10px 25% 0px 25%;
+	border-radius: 8px;
+}
+
+.masuk {
+	display: block;
+	width: 20%;
+	height: 40px;
+	margin: 10px 40% 0px 40%;
+	border-radius: 8px;
+	background: #A3ECFF;
+	text-decoration: none;
+	color: #2A00FF;
+	box-shadow: 0px 0px 10px 1px #05C1FF;
+	border: solid 3px #05C1FF;
+}
+
+.masuk:hover {
+	background: rgba(198, 255, 251, 0.54);
+	color: #2A00FF;
+	border-radius: 8px;
+>>>>>>> 311e91466b50afb0f43be8bfae154785fc04be0b
 }
