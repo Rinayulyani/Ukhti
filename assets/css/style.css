@@ -749,6 +749,7 @@ body {
 	padding: 2%;
 	margin: 30px 25% 10px 25%;
 	border-radius: 8px;
+	font-family: "Handlee";
 }
 
 .login-password{
@@ -757,6 +758,7 @@ body {
 	padding: 2%;
 	margin: 10px 25% 0px 25%;
 	border-radius: 8px;
+	font-family: "Handlee";
 }
 
 .masuk {
@@ -770,6 +772,7 @@ body {
 	color: #2A00FF;
 	box-shadow: 0px 0px 10px 1px #05C1FF;
 	border: solid 3px #05C1FF;
+	font-family: "Handlee";
 }
 
 .masuk:hover {
