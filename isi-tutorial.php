@@ -28,11 +28,20 @@
 				</ul>
 			</div>
 		</div>
-		<div id="search">
-			<form>
-				<input type="text" name="input-search" placeholder="Search" class="text"></input>
-				<input type="submit" name="search" value="" class="submit"></input>
-			</form>
+		<div id="bar">
+			<div class="search">
+				<form>
+					<input type="text" name="input-search" placeholder="Search" class="text"></input>
+					<input type="submit" name="search" value="" class="submit"></input>
+				</form>
+			</div>
+			<div class="_breadcrumb">
+				<ul>
+					<li id="breadcrumb"><a href="index.php">Home</a></li>
+					<li id="breadcrumb"><a href="tutorial.php">Tutorial</a></li>
+					<div class="active">(Judul Tutorial)</div>
+				</ul>
+			</div>
 		</div>
 		<div id="wrapper">
 			<div class="wrap">
@@ -48,8 +57,8 @@
 					<div id="tampil-komentar"></div>
 					<div id="comment">
 						<form>
-							<input type="text" name="nama" placeholder="Masukan Nama Anda" class="text1"></input>
-							<input type="text" name="komentar" class="text2"></input>
+							<input type="text" name="nama" placeholder="Masukan Nama Anda" class="nama-komentar"></input>
+							<input type="text" name="komentar" class="isi-komentar"></input>
 							<input type="submit" name="kirim" class="kirim"></input>
 						</form>
 					</div>
@@ -65,12 +74,21 @@
 			</div>
 		</div>
 		<div id="footer">
+			<div id="logoF"><a href="index.php"> Ukhti </a></div>
 			<div class="info">
-				<div id="logoF">Ukhti</div>
-				<a href=""><div id="kontak"><img src="assets/images/fb.png"></div></a>
-				<a href=""><div id="kontak"><img src="assets/images/twitt.png"></div></a>
-				<div id="kontak"><img src="assets/images/g+.png"></div>
-				<div id="kontak"><img src="assets/images/kontak.png"></div>
+				<div id="kontak">
+					<a href="https://www.facebook.com/ukhtiwebsiteinformation/?ref=aymt_homepage_panel"><div id="icon-fb"></div></a>
+					<a href=""><div id="icon-twitt"></div></a>
+					<div id="icon-g"></div>
+					<div id="icon-kontak"></div>
+				</div>
+				<div id="subscribe">
+					<div class="judul-subscribe">Berlangganan Artikel di Ukhti Yuu..</div>
+					<form class="form-subscribe">
+						<input name="mail" placeholder="Your E-mail Address" class="input-subscribe" type="email">
+						<input name="subscribe" value="Subscribe Now!" class="submit-subscribe" type="submit">
+					</form>
+				</div>
 			</div>
 			<div class="info">
 				<div id="judul">Partner</div>

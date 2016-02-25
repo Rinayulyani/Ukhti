@@ -347,7 +347,7 @@ body {
 
 /* form komentar */
 
-.text1 {
+.nama-komentar {
 	width: 64%;
 	height: 32px;
 	border-radius: 6px;
@@ -357,7 +357,7 @@ body {
 	margin-top: 2%;
 }
 
-.text2 {
+.isi-komentar {
 	width: 64%;
 	height: 130px;
 	border-radius: 6px;
