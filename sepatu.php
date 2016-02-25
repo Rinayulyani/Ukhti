@@ -57,20 +57,12 @@
 			</div>
 		</div>
 		<div id="footer">
-			<div class="contact">
+			<div class="info">
 				<div id="logoF">Ukhti</div>
-				<div id="kontak">
-					<a href=""><div class="fb"><img src="assets/images/fb.png"></div></a>
-				</div>
-				<div id="kontak">
-					<a href=""><div class="twitt"><img src="assets/images/twitt.png"></div></a>
-				</div>
-				<div id="kontak">
-					<div class="mail"><img src="assets/images/g+.png"></div>
-				</div>
-				<div id="kontak">
-					<div class="no-kontak"><img src="assets/images/kontak.png"></div>
-				</div> 
+				<a href=""><div id="kontak"><img src="assets/images/fb.png"></div></a>
+				<a href=""><div id="kontak"><img src="assets/images/twitt.png"></div></a>
+				<div id="kontak"><img src="assets/images/g+.png"></div>
+				<div id="kontak"><img src="assets/images/kontak.png"></div>
 			</div>
 			<div class="info">
 				<div id="judul">Partner</div>
