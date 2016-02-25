@@ -28,11 +28,20 @@
 				</ul>
 			</div>
 		</div>
-		<div id="search">
-			<form>
-				<input type="text" name="input-search" placeholder="Search" class="text"></input>
-				<input type="submit" name="search" value="" class="submit"></input>
-			</form>
+		<div id="bar">
+			<div class="search">
+				<form>
+					<input type="text" name="input-search" placeholder="Search" class="text"></input>
+					<input type="submit" name="search" value="" class="submit"></input>
+				</form>
+			</div>
+			<div class="_breadcrumb">
+				<ul>
+					<li id="breadcrumb"><a href="index.php">Home</a></li>
+					<li id="breadcrumb"><a href="jubel.php">Toko</a></li>
+					<div class="active">Sepatu</div>
+				</ul>
+			</div>
 		</div>
 		<div id="wrapper">
 			<div class="out-toko">

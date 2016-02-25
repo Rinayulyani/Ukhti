@@ -162,6 +162,60 @@ body {
 	text-align: right;
 }
 
+.search {
+	width: 30%;
+	height: auto;
+	float: right;
+}
+
+._breadcrumb {
+	width: 67%;
+	height: auto;
+	float: left;
+	margin-right: 3%;
+}
+
+#breadcrumb {
+	width: 14%;
+	height: auto;
+	float: left;
+	background: #86EDFC;
+}
+
+#breadcrumb:hover {
+	background: #9BF2FF;
+	color: #000;
+}
+
+.active {
+	width: 14%;
+	height: auto;
+	float: left;
+	text-align: center;
+	background: #AFF5FF;
+	padding: 10px 0px;
+}
+
+._breadcrumb ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+._breadcrumb ul li {
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+._breadcrumb ul li a {
+	display: block;
+	color: #0042FF;
+	padding: 10px 0px;
+	text-decoration: none;
+}
+
 #wrapper {
 	width: 82%;
 	height: auto;
@@ -718,6 +772,7 @@ body {
 	width: 90%;
 	height: auto;
 	float: left;
+	background: #FFD4FF;
 	margin-top: 16px;
 	padding: 4px 4% 16px;
 	border: 5px solid #ff81e5;
@@ -795,23 +850,46 @@ body {
 /*Form Style*/
 
 .text {
-	width: 22%;
+	width: 84%;
 	height: 32px;
 	border-radius: 6px;
 	border: solid #00C9FF 1px;
 	padding: 6px;
 }
 
+.text1 {
+	width: 56%;
+	height: 32px;
+	border-top-left-radius: 6px;
+	border: solid #00C9FF 1px;
+	padding: 6px;
+	margin-right: -1%;
+	border-bottom-left-radius: 6px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border-right-color: #fff;
+}
+
+.text2 {
+	width: 33%;
+	height: 32px;
+	border-radius: 6px;
+	border: solid #00C9FF 1px;
+	padding: 6px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	margin-right: -1%;
+}
+
 .submit {
-	width: 2.5%;
-	height: 30px;
+	width: 8%;
+	height: 28px;
 	background: url(../images/search.png);
 	margin-right: 3%;
 	border-radius: 8px;
-	background-size: 2.5% 30px;
+	background-size: 100% 28px;
 }
 
-<<<<<<< HEAD
 .form-subscribe {
 	width: 100%;
 	height: auto;
