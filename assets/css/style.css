@@ -150,7 +150,7 @@ body {
 	box-shadow: 2px 0px 8px 1px #f697c6;
 }
 
-#search {
+#bar {
 	width: 82%;
 	float: left;
 	margin-bottom: 28px;
@@ -632,10 +632,22 @@ body {
 }
 
 #kontak {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+
+#icon {
 	width: 13%;
 	height: auto;
 	float: left;
 	margin-right: 4px;
+}
+
+#subscribe {
+	width: 100%;
+	height: auto;
+	float: left;
 }
 
 .info {

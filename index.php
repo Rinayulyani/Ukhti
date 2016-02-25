@@ -41,11 +41,14 @@
 				</ul>
 			</div>
 		</div>
-		<div id="search">
-			<form>
-				<input type="text" name="input-search" placeholder="Search" class="text"></input>
-				<input type="submit" name="search" value="" class="submit"></input>
-			</form>
+		<div id="bar">
+			<div class="search">
+				<form>
+					<input type="text" name="input-search" placeholder="Search" class="text"></input>
+					<input type="submit" name="search" value="" class="submit"></input>
+				</form>
+			</div>
+			<div class="breadcrumb"></div>
 		</div>
 		<div id="wrapper">
 			<div class="wrap">
@@ -132,10 +135,15 @@
 		<div id="footer">
 			<div class="info">
 				<div id="logoF">Ukhti</div>
-				<a href=""><div id="kontak"><img src="assets/images/fb.png"></div></a>
-				<a href=""><div id="kontak"><img src="assets/images/twitt.png"></div></a>
-				<div id="kontak"><img src="assets/images/g+.png"></div>
-				<div id="kontak"><img src="assets/images/kontak.png"></div>
+				<div id="kontak">
+					<a href=""><div id="icon"><img src="assets/images/fb.png"></div></a>
+					<a href=""><div id="icon"><img src="assets/images/twitt.png"></div></a>
+					<div id="icon"><img src="assets/images/g+.png"></div>
+					<div id="icon"><img src="assets/images/kontak.png"></div>
+				</div>
+				<div id="subscribe">
+					<form></form>
+				</div>
 			</div>
 			<div class="info">
 				<div id="judul">Partner</div>
