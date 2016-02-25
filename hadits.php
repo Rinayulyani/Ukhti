@@ -91,12 +91,20 @@
 			</div>
 		</div>
 		<div id="footer">
+			<div id="logoF"><a href="index.php"> Ukhti </a></div>
 			<div class="info">
-				<div id="logoF">Ukhti</div>
-				<a href=""><div id="kontak"><img src="assets/images/fb.png"></div></a>
-				<a href=""><div id="kontak"><img src="assets/images/twitt.png"></div></a>
-				<div id="kontak"><img src="assets/images/g+.png"></div>
-				<div id="kontak"><img src="assets/images/kontak.png"></div>
+				<div id="kontak">
+					<a href="https://www.facebook.com/ukhtiwebsiteinformation/?ref=aymt_homepage_panel"><div id="icon-fb"></div></a>
+					<a href=""><div id="icon-twitt"></div></a>
+					<div id="icon-g"></div>
+					<div id="icon-kontak"></div></div>
+				<div id="subscribe">
+					<div class="judul-subscribe">Berlangganan Artikel di Ukhti Yuu..</div>
+					<form class="form-subscribe">
+						<input name="mail" placeholder="Your E-mail Address" class="input-subscribe" type="email">
+						<input name="subscribe" value="Subscribe Now!" class="submit-subscribe" type="submit">
+					</form>
+				</div>
 			</div>
 			<div class="info">
 				<div id="judul">Partner</div>
