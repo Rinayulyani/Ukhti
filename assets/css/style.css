@@ -447,6 +447,16 @@ body {
 	border-radius: 8px;
 }
 
+.isi-ket {
+	width: 92%;
+	height: auto;
+	float: left;
+	padding: 8px 4%;
+	background: rgba(198, 255, 251, 0.54);
+	border-radius: 8px;
+	margin-bottom: 10%;
+}
+
 .pakaian {
 	width: 30%;
 	height: 285px;
