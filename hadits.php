@@ -90,7 +90,7 @@
 				<div class="rightKet">
 					<div id="arsip">
 					 <div class="judul">Keterangan</div>
-					 <div class="isi-ket"> Assalamualaikum Ukhti ^^ Laman ini berisi hadits shahih tentang wanita. Semoga Bermanfaat^^</div>
+					 <div class="isi-ket"> Assalamualaikum Ukhti ^^ Laman ini berisi hadits shahih tentang wanita. Semoga bermanfaat^^</div>
 					</div>
 				</div>
 				<div class="rightKet">
