@@ -162,6 +162,60 @@ body {
 	text-align: right;
 }
 
+.search {
+	width: 30%;
+	height: auto;
+	float: right;
+}
+
+._breadcrumb {
+	width: 67%;
+	height: auto;
+	float: left;
+	margin-right: 3%;
+}
+
+#breadcrumb {
+	width: 14%;
+	height: auto;
+	float: left;
+	background: #86EDFC;
+}
+
+#breadcrumb:hover {
+	background: #9BF2FF;
+	color: #000;
+}
+
+.active {
+	width: 14%;
+	height: auto;
+	float: left;
+	text-align: center;
+	background: #AFF5FF;
+	padding: 10px 0px;
+}
+
+._breadcrumb ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+._breadcrumb ul li {
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+._breadcrumb ul li a {
+	display: block;
+	color: #0042FF;
+	padding: 10px 0px;
+	text-decoration: none;
+}
+
 #wrapper {
 	width: 82%;
 	height: auto;
@@ -228,6 +282,100 @@ body {
 	float: left;
 	margin: 5px 10%;
 }
+
+#tulis {
+	width: 90%;
+	height: auto;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.tanggal {
+	width: 30%;
+	height: 13px;
+	float: left;
+	background: #00C9FF;
+	padding: 8px 2%;
+	border-radius: 21px 21px 0px 0px;
+	margin-left: 2px;
+}
+
+.title {
+	width: 92%;
+	height: auto;
+	float: left;
+	padding: 8px 4%;
+	background:cyan;
+	border-radius: 4px;
+}
+
+#out-tulisan {
+	width: 86%;
+	height: auto;
+	padding: 8px 2%;
+	float: left;
+	background: rgba(198, 255, 251, 0.54);
+}
+
+.foto1 {
+	width: 48%;
+	height: 202px;
+	float: left;
+	margin: 5px 25%;
+	background: green;
+}
+
+.tulisan {
+	width: 80%;
+	height: auto;
+	margin: 5px 10%;
+}
+
+#tampil-komentar {
+	width: 90%;
+	height: auto;
+}
+
+#comment {
+	width: 90%;
+	height: auto;
+	float: left;
+	margin-top: 47px;
+	margin-bottom: 2%;
+	border-radius: 8px;
+}
+
+/* form komentar */
+
+.nama-komentar {
+	width: 64%;
+	height: 32px;
+	border-radius: 6px;
+	border: solid #00C9FF 1px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 2%;
+}
+
+.isi-komentar {
+	width: 64%;
+	height: 130px;
+	border-radius: 6px;
+	border: solid #00C9FF 1px;
+	margin-top: 2%;
+	float: left;
+	margin-left: 30px;
+}
+
+.kirim {
+	width: 8%;
+	height: 28px;
+	float: left;
+	margin-left: 36px;
+	margin-top: 22%;
+	border-radius: 13px;
+}
+
 .rightKet {
 	width: 30%;
 	height: auto;
@@ -769,6 +917,7 @@ body {
 	width: 90%;
 	height: auto;
 	float: left;
+	background: #FFD4FF;
 	margin-top: 16px;
 	padding: 4px 4% 16px;
 	border: 5px solid #ff81e5;
@@ -846,20 +995,43 @@ body {
 /*Form Style*/
 
 .text {
-	width: 22%;
+	width: 84%;
 	height: 32px;
 	border-radius: 6px;
 	border: solid #00C9FF 1px;
 	padding: 6px;
 }
 
+.text1 {
+	width: 56%;
+	height: 32px;
+	border-top-left-radius: 6px;
+	border: solid #00C9FF 1px;
+	padding: 6px;
+	margin-right: -1%;
+	border-bottom-left-radius: 6px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border-right-color: #fff;
+}
+
+.text2 {
+	width: 33%;
+	height: 32px;
+	border-radius: 6px;
+	border: solid #00C9FF 1px;
+	padding: 6px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	margin-right: -1%;
+}
+
 .submit {
-	width: 2.5%;
-	height: 30px;
+	width: 8%;
+	height: 28px;
 	background: url(../images/search.png);
-	margin-right: 3%;
 	border-radius: 8px;
-	background-size: 2.5% 30px;
+	background-size: 100% 28px;
 }
 
 .form-subscribe {

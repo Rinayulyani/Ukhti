@@ -48,7 +48,11 @@
 					<input type="submit" name="search" value="" class="submit"></input>
 				</form>
 			</div>
-			<div class="breadcrumb"></div>
+			<div class="_breadcrumb">
+				<ul>
+					<div class="active">Home</div>
+				</ul>
+			</div>
 		</div>
 		<div id="wrapper">
 			<div class="wrap">

@@ -1,7 +1,7 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
-	<title>Pakaian</title>
+	<title></title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
 </head>
@@ -38,30 +38,38 @@
 			<div class="_breadcrumb">
 				<ul>
 					<li id="breadcrumb"><a href="index.php">Home</a></li>
-					<li id="breadcrumb"><a href="jubel.php">Toko</a></li>
-					<div class="active">Pakaian</div>
+					<li id="breadcrumb"><a href="artikel.php">Artikel</a></li>
+					<div class="active">(Judul Artikel)</div>
 				</ul>
 			</div>
 		</div>
 		<div id="wrapper">
-			<div class="out-toko">
-				<div class="pakai">
-					<div id="baju"></div>
-					<div id="baju"></div>
-					<div id="baju"></div>
-					<div id="baju1"></div>
+			<div class="wrap">
+				<div class="content">
+					<div id="tulis">
+						<div class="tanggal">02 februari 2016</div>
+						<div class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+					</div>
+					<div id="out-tulisan">
+						<div class="foto1"></div>
+						<div class="tulisan">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+					</div>
+					<div id="tampil-komentar"></div>
+					<div id="comment">
+						<form>
+							<input type="text" name="nama" placeholder="Masukan Nama Anda" class="nama-komentar"></input>
+							<input type="text" name="komentar" class="isi-komentar"></input>
+							<input type="submit" name="kirim" class="kirim"></input>
+						</form>
+					</div>
 				</div>
-				<div class="pakai">
-					<div id="baju"></div>
-					<div id="baju"></div>
-					<div id="baju"></div>
-					<div id="baju1"></div>
-				</div>
-				<div class="pakai">
-					<div id="baju"></div>
-					<div id="baju"></div>
-					<div id="baju"></div>
-					<div id="baju1"></div>
+				<div class="rightKet">
+					<div id="arsip">
+						<div class="judul">Arsip</div>
+						<div class="isi-arsip">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

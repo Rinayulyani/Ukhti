@@ -1,7 +1,7 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
-	<title>Tas</title>
+	<title>Lainnya</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
 </head>
@@ -28,11 +28,20 @@
 				</ul>
 			</div>
 		</div>
-		<div id="search">
-			<form>
-				<input type="text" name="input-search" placeholder="Search" class="text"></input>
-				<input type="submit" name="search" value="" class="submit"></input>
-			</form>
+		<div id="bar">
+			<div class="search">
+				<form>
+					<input type="text" name="input-search" placeholder="Search" class="text"></input>
+					<input type="submit" name="search" value="" class="submit"></input>
+				</form>
+			</div>
+			<div class="_breadcrumb">
+				<ul>
+					<li id="breadcrumb"><a href="index.php">Home</a></li>
+					<li id="breadcrumb"><a href="jubel.php">Toko</a></li>
+					<div class="active">Aksesoris</div>
+				</ul>
+			</div>
 		</div>
 		<div id="wrapper">
 			<div class="out-toko">
@@ -93,6 +102,6 @@
 			</div>
 			<div class="copyright">Ukhti &copy 2016</div>
 		</div>
-	</div>
+	</div>		
 </body>
 </html>
