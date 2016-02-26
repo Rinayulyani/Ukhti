@@ -15,7 +15,6 @@
 						<li><a href="about.php">About</a></li>
 						<li><a href="logUp.php">Log Up</a></li>
 						<li><a href="logIn.php">Log In</a></li>
-						<li><a href="logOut.php">Log Out</a></li>
 					</ul>
 				</div>
 			</div>
@@ -36,10 +35,12 @@
 				</form>
 			</div>
 			<div class="_breadcrumb">
-				<ul>
-					<li id="breadcrumb"><a href="index.php">Home</a></li>
-					<div class="active">Profil(Nama User)</div>
-				</ul>
+				<!-- another version - flat style with animated hover effect -->
+				<div class="breadcrumb flat">
+					<a href="index.php">Home</a>
+					<a href="user.php">User</a>
+					<a href="#" class="active">Nama User</a>
+				</div>
 			</div>
 		</div>
 		<div id="wrapper">

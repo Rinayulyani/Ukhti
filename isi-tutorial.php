@@ -15,7 +15,6 @@
 						<li><a href="about.php">About</a></li>
 						<li><a href="logUp.php">Log Up</a></li>
 						<li><a href="logIn.php">Log In</a></li>
-						<li><a href="logOut.php">Log Out</a></li>
 					</ul>
 				</div>
 			</div>
