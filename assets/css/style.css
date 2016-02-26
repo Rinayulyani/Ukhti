@@ -553,11 +553,11 @@ body {
 	margin-right: 2%;
 	float: left;
 	font-size: 100px;
-	background: url(../images/tas.jpg);
-    -webkit-background-size: 49% 140px;
-    -moz-background-size: 49% 140px;
-    -o-background-size: 49% 140px;
-    background-size: 49% 140px;
+	background: url(../images/tas1.jpg);
+    -webkit-background-size: 100% 140px;
+    -moz-background-size: 100% 140px;
+    -o-background-size: 100% 140px;
+    background-size: 100% 140px;
 }
 
 .dll {
@@ -590,7 +590,7 @@ body {
 	height: 140px;
 	float: left;
 	font-size: 100px;
-	background: url(../images/sepatu.jpg);
+	background: url(../images/sepatu1.jpg);
     -webkit-background-size: 100% 140px;
     -moz-background-size: 100% 140px;
     -o-background-size: 100% 140px;
