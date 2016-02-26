@@ -82,7 +82,7 @@
 					</form>
 				</div>
 			</div>
-			<div class="info">
+			<div class="info1">
 				<div id="judul">Partner</div>
 				<div id="out-logo">
 					<div class="logoP"></div>

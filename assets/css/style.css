@@ -888,10 +888,18 @@ body {
 }
 
 .info {
+	width: 31%;
+	height: auto;
+	float: left;
+	padding: 0px 0.165%;
+}
+
+.info1 {
 	width: 33%;
 	height: auto;
 	float: left;
 	padding: 0px 0.165%;
+	margin-left: 4%;
 }
 
 #judul {
@@ -920,10 +928,10 @@ body {
 }
 
 #aboutringkasan {
-	width: 82%;
+	width: 86%;
 	height: auto;
 	float: left;
-	padding: 0px 12% 0px 6%;
+	padding: 0px 6%;
 }
 
 .copyright {
@@ -1003,7 +1011,7 @@ body {
 }
 
 .submit-subscribe {
-	width: 35%;
+	width: 42%;
 	border: solid #FF81E5 1px;
 	border-radius: 9px;
 	margin-right: 2%;

@@ -72,7 +72,8 @@
 					<a href="https://www.facebook.com/ukhtiwebsiteinformation/?ref=aymt_homepage_panel"><div id="icon-fb"></div></a>
 					<a href=""><div id="icon-twitt"></div></a>
 					<div id="icon-g"></div>
-					<div id="icon-kontak"></div></div>
+					<div id="icon-kontak"></div>
+				</div>
 				<div id="subscribe">
 					<div class="judul-subscribe">Berlangganan Artikel di Ukhti Yuu..</div>
 					<form class="form-subscribe">
@@ -81,7 +82,7 @@
 					</form>
 				</div>
 			</div>
-			<div class="info">
+			<div class="info1">
 				<div id="judul">Partner</div>
 				<div id="out-logo">
 					<div class="logoP"></div>
