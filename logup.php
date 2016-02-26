@@ -42,7 +42,7 @@
 						<input type="email" name="email" placeholder="Email" class="nama-logup1"></input>
 						<input type="email" name="alternatifemail" placeholder="Alternatif Email" class="nama-logup1"></input>
 						<input type="password" name="password" placeholder="Password" class="nama-logup1"></input>
-						<input type="password" name="alterpassword" placeholder="Aternatif Password" class="nama-logup1"></input>
+						<input type="password" name="alterpassword" placeholder="Konfirmasi Password" class="nama-logup1"></input>
 						<input type="submit" name="daftar" value="Daftar" class="daftar"></input>
 					</form>
 				</div>
