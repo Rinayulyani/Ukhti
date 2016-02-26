@@ -11,12 +11,13 @@
 			$(window).load(function() {
 				$('#slider').nivoSlider();
 			});
-			</script>
+	</script>
     <link rel="stylesheet" href="assets/images/themes/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="assets/images/themes/light/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="assets/images/themes/dark/dark.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="assets/images/themes/bar/bar.css" type="text/css" media="screen" />
 	<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+	<script src="http://thecodeplayer.com/uploads/js/prefixfree-1.0.7.js" type="text/javascript" type="text/javascript"></script>
 </head>
 <body>
 	<div class="all-wrapper">
@@ -28,7 +29,6 @@
 						<li><a href="about.php">About</a></li>
 						<li><a href="logUp.php">Log Up</a></li>
 						<li><a href="logIn.php">Log In</a></li>
-						<li><a href="logOut.php">Log Out</a></li>
 					</ul>
 				</div>
 			</div>
@@ -49,9 +49,10 @@
 				</form>
 			</div>
 			<div class="_breadcrumb">
-				<ul>
-					<div class="active">Home</div>
-				</ul>
+				<!-- another version - flat style with animated hover effect -->
+				<div class="breadcrumb flat">
+					<a href="#" class="active">Home</a>
+				</div>
 			</div>
 		</div>
 		<div id="wrapper">
@@ -139,7 +140,8 @@
 					<a href="https://www.facebook.com/ukhtiwebsiteinformation/?ref=aymt_homepage_panel"><div id="icon-fb"></div></a>
 					<a href=""><div id="icon-twitt"></div></a>
 					<div id="icon-g"></div>
-					<div id="icon-kontak"></div></div>
+					<div id="icon-kontak"></div>
+				</div>
 				<div id="subscribe">
 					<div class="judul-subscribe">Berlangganan Artikel di Ukhti Yuu..</div>
 					<form class="form-subscribe">
@@ -148,7 +150,7 @@
 					</form>
 				</div>
 			</div>
-			<div class="info">
+			<div class="info1">
 				<div id="judul">Partner</div>
 				<div id="out-logo">
 					<div class="logoP"></div>

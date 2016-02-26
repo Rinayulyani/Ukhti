@@ -15,7 +15,6 @@
 						<li><a href="about.php">About</a></li>
 						<li><a href="logUp.php">Log Up</a></li>
 						<li><a href="logIn.php">Log In</a></li>
-						<li><a href="logOut.php">Log Out</a></li>
 					</ul>
 				</div>
 			</div>
@@ -36,11 +35,12 @@
 				</form>
 			</div>
 			<div class="_breadcrumb">
-				<ul>
-					<li id="breadcrumb"><a href="index.php">Home</a></li>
-					<li id="breadcrumb"><a href="jubel.php">Toko</a></li>
-					<div class="active">Sepatu</div>
-				</ul>
+				<!-- another version - flat style with animated hover effect -->
+				<div class="breadcrumb flat">
+					<a href="index.php">Home</a>
+					<a href="jubel.php">Toko</a>
+					<a href="#" class="active">Sepatu</a>
+				</div>
 			</div>
 		</div>
 		<div id="wrapper">
@@ -72,7 +72,8 @@
 					<a href="https://www.facebook.com/ukhtiwebsiteinformation/?ref=aymt_homepage_panel"><div id="icon-fb"></div></a>
 					<a href=""><div id="icon-twitt"></div></a>
 					<div id="icon-g"></div>
-					<div id="icon-kontak"></div></div>
+					<div id="icon-kontak"></div>
+				</div>
 				<div id="subscribe">
 					<div class="judul-subscribe">Berlangganan Artikel di Ukhti Yuu..</div>
 					<form class="form-subscribe">
@@ -81,7 +82,7 @@
 					</form>
 				</div>
 			</div>
-			<div class="info">
+			<div class="info1">
 				<div id="judul">Partner</div>
 				<div id="out-logo">
 					<div class="logoP"></div>
