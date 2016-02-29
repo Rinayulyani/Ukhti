@@ -832,6 +832,29 @@ body {
 	font-family: "Handlee";
 	padding-top: 2%
 }
+
+/*tampilan admin*/
+.out-admin {
+	background: pink;
+	height: auto;
+	width: 90%;
+	margin: 0px 5%;
+	float: left;
+}
+#box-atas {
+	background: cyan;
+	height: 100px;
+	width: 96%;
+	margin: 10px 2% 0px 2%;
+	float: left;
+}
+#box-bawah {
+	background: cyan;
+	width: 96%;
+	height: 400px;
+	float: left;
+	margin: 5px 2% 0px 2%;
+}
 #footer {
 	width: 82%;
 	height: auto;
