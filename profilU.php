@@ -61,10 +61,10 @@
 				<div class="contentuser">
 					<div id="navuser">
 						<ul>
-							<li><a href="jubel.php">Toko</a></li>
+							<li><a href="jubel.php">Toko</a>
 							<li><a href="artikel.php">Artikel</a></li>
 							<li><a href="tutorial.php">Tutorial</a></li>
-							<li><a href=>Arsip</a></li>
+							<li><a href="">Arsip</a></li>
 						</ul>
 					</div>
 					<div class="out-profil">
