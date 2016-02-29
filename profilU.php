@@ -15,14 +15,13 @@
 						<li><a href="about.php">About</a></li>
 						<li><a href="logUp.php">Log Up</a></li>
 						<li><a href="logIn.php">Log In</a></li>
-						<li><a href="logOut.php">Log Out</a></li>
 					</ul>
 				</div>
 			</div>
 			<div class="nav">
 				<ul>
 					<div class="nav-in"><li><a href="jubel.php">Toko</a></li></div>
-					<div class="nav-in"><li><a href="kisah.php">Kisah</a></li></div>
+					<div class="nav-in"><li><a href="artikel.php">Artikel</a></li></div>
 					<div class="nav-in"><li><a href="tutorial.php">Tutorial</a></li></div>
 					<div class="nav-in"><li><a href="hadits.php">Hadits</a></li></div>
 				</ul>
@@ -36,10 +35,12 @@
 				</form>
 			</div>
 			<div class="_breadcrumb">
-				<ul>
-					<li id="breadcrumb"><a href="index.php">Home</a></li>
-					<div class="active">Profil(Nama User)</div>
-				</ul>
+				<!-- another version - flat style with animated hover effect -->
+				<div class="breadcrumb flat">
+					<a href="index.php">Home</a>
+					<a href="user.php">User</a>
+					<a href="#" class="active">Nama User</a>
+				</div>
 			</div>
 		</div>
 		<div id="wrapper">
@@ -47,15 +48,23 @@
 				<div class="namauser">Ukhti</div>
 				<div class="phobiouser">
 					<div id="photouser"></div>
-					<div id="biodatauser"></div>
+					<div id="biodatauser">
+						Tempat tinggal: <br>
+						TTL: <br>
+						Jenis Kelamin: <br>
+						Email: <br>
+						No. Hp: <br>
+						Hal yang disukai: <br>
+						Kutipan Hadits:
+					</div>
 				</div>
 				<div class="contentuser">
 					<div id="navuser">
 						<ul>
-							<div id="menuuser"><li><a href="jubel.php">Toko</a></li></div>
-							<div id="menuuser"><li><a href="kisah.php">Artikel</a></li></div>
-							<div id="menuuser"><li><a href="tutorial.php">Tutorial</a></li></div>
-							<div id="menuuser"><li><a href=>Arsip</a></li></div>
+							<li><a href="jubel.php">Toko</a></li>
+							<li><a href="artikel.php">Artikel</a></li>
+							<li><a href="tutorial.php">Tutorial</a></li>
+							<li><a href=>Arsip</a></li>
 						</ul>
 					</div>
 					<div class="out-profil">
@@ -63,19 +72,23 @@
 							<div class="judul-artikel">
 								Lorem ipsum dolor sit amet
 							</div>
-							<div class="ringkasan-artikel">
+							<div class="out-artikel">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 							</div>
+						</div>
+						<div id="artikel">
 							<div class="judul-artikel">
 								Lorem ipsum dolor sit amet
 							</div>
-							<div class="ringkasan-artikel">
+							<div class="out-artikel">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 							</div>
+						</div>
+						<div id="artikel">
 							<div class="judul-artikel">
 								Lorem ipsum dolor sit amet
 							</div>
-							<div class="ringkasan-artikel">
+							<div class="out-artikel">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 							</div>
 						</div>

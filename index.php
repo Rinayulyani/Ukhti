@@ -11,12 +11,13 @@
 			$(window).load(function() {
 				$('#slider').nivoSlider();
 			});
-			</script>
+	</script>
     <link rel="stylesheet" href="assets/images/themes/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="assets/images/themes/light/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="assets/images/themes/dark/dark.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="assets/images/themes/bar/bar.css" type="text/css" media="screen" />
 	<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+	<script src="http://thecodeplayer.com/uploads/js/prefixfree-1.0.7.js" type="text/javascript" type="text/javascript"></script>
 </head>
 <body>
 	<div class="all-wrapper">
@@ -28,7 +29,6 @@
 						<li><a href="about.php">About</a></li>
 						<li><a href="logUp.php">Log Up</a></li>
 						<li><a href="logIn.php">Log In</a></li>
-						<li><a href="logOut.php">Log Out</a></li>
 					</ul>
 				</div>
 			</div>
@@ -49,9 +49,10 @@
 				</form>
 			</div>
 			<div class="_breadcrumb">
-				<ul>
-					<div class="active">Home</div>
-				</ul>
+				<!-- another version - flat style with animated hover effect -->
+				<div class="breadcrumb flat">
+					<a href="#" class="active">Home</a>
+				</div>
 			</div>
 		</div>
 		<div id="wrapper">

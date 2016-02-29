@@ -89,7 +89,7 @@ body {
 
 #log ul li {
 	position: relative;
-	float: left;
+	float: right;
 	width: 25%;
 	text-align: center;
 }
@@ -173,27 +173,6 @@ body {
 	height: auto;
 	float: left;
 	margin-right: 3%;
-}
-
-#breadcrumb {
-	width: 14%;
-	height: auto;
-	float: left;
-	background: #86EDFC;
-}
-
-#breadcrumb:hover {
-	background: #9BF2FF;
-	color: #000;
-}
-
-.active {
-	width: 14%;
-	height: auto;
-	float: left;
-	text-align: center;
-	background: #AFF5FF;
-	padding: 10px 0px;
 }
 
 ._breadcrumb ul {
@@ -553,11 +532,11 @@ body {
 	margin-right: 2%;
 	float: left;
 	font-size: 100px;
-	background: url(../images/tas.jpg);
-    -webkit-background-size: 49% 140px;
-    -moz-background-size: 49% 140px;
-    -o-background-size: 49% 140px;
-    background-size: 49% 140px;
+	background: url(../images/tas1.jpg);
+    -webkit-background-size: 100% 140px;
+    -moz-background-size: 100% 140px;
+    -o-background-size: 100% 140px;
+    background-size: 100% 140px;
 }
 
 .dll {
@@ -590,7 +569,7 @@ body {
 	height: 140px;
 	float: left;
 	font-size: 100px;
-	background: url(../images/sepatu.jpg);
+	background: url(../images/sepatu1.jpg);
     -webkit-background-size: 100% 140px;
     -moz-background-size: 100% 140px;
     -o-background-size: 100% 140px;
@@ -676,13 +655,15 @@ body {
 }
 
 .namauser {
-	background: #00C9FF;
-	width: 100%;
-	height: 50px;
+	background: #FFE6FF;
+	width: 96%;
+	height: auto;
 	float: left;
-	text-align: center;
-	font-size: 50px;
+	text-align: left;
+	font-size: 40px;
 	border-radius: 8px;
+	padding: 8px 2%;
+	border-top: solid 2px #FF81E5;
 }
 
 .phobiouser {
@@ -717,68 +698,67 @@ body {
 }
 
 #navuser {
-	background: cyan;
-	width :96%;
+	background: #c6fffb;
+	width: 99%;
 	height: auto;
 	float: left;
-	padding: 8px 2%;
+	padding: 2px 0.5%;
 }
 
-#menuuser {
+
+#navuser ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navuser ul li {
+	position: relative;
+	float: left;
 	width: 25%;
-	height: auto;
-	float: left;
-}
-
-#menuuser ul {
-	float: left;
-	width: 100%;
 	text-align: center;
 }
 
-#menuuser ul li {
-	float: left;
-	width: 100%;
-	text-align: center;
-}
-
-#menuuser ul li a {
+#navuser ul li a {
 	display: block;
-	color: #0042FF;
+	color: #827BFF;
 	padding: 10px 0px;
 	text-decoration: none;
 }
 
-#menuuser ul li a:hover{
+#navuser ul li a:hover{
+	color: #fff;
+	background: #90ECE2;
+	border-radius: 5px;
+}
+
+#navuser ul li a:hover{
 	color: #FF1E27;
 	background: #FFE6FF;
-	border-radius: 21px 21px 0px 0px;
-	box-shadow: 2px 0px 8px 1px #f697c6;
+	border-radius: 2px
 }
 .out-profil { 
 	width: 90%; 
 	height: auto;
 	float: left;
-	margin: 5px 0%;
+	margin: 10px 0% 0px;
 	padding-left: 10%;
 }
  /*log-in*/
 .out-login {
-	width: 80%;
-	height: 500px;
+	width: 100%;
+	height: 657px;
 	float: left;
-	margin: 0px 10%;
+	background: url(../images/login.png);
+	background-size: 100% 100%;
 }
 
 #log-in {
-	background: #A3ECFF;
-	width: 50%;
-	height: 200px;
-	margin: 180px 25% 120px 25%;
+	width: 51%;
+	height: auto;
+	margin: 298px 25% 120px 24%;
 	float: left;
 	border-radius: 10px;
-	box-shadow: 0px 0px 14px 0px #05C1FF;
-	border: solid 5px #05C1FF;
 }
 /*log-up*/
 .out-logup {
@@ -791,7 +771,7 @@ body {
 .out-logup1 {
 	background: #A3ECFF;
 	width: 70%;
-	height: 500px;
+	height: auto;
 	float: left;
 	margin: 30px 15% 0px 15%;
 	border-radius: 15px;
@@ -802,22 +782,25 @@ body {
 #daftar-logup {
 	background:#A3ECFF;
 	width: 43%;
-	height: 480px;
+	height: auto;
 	float: left;
 	margin: 10px 0px 10px 0px;
 	font-family: "Handlee";
 	font-size: 20px;
 }
+
 .cinta {
 	margin: 27px;
 }
+
 .titik {
 	margin: 30px;
 }
+
 #titikdua{
 	background: #A3ECFF;
 	width: 7%;
-	height: 480px;
+	height: auto;
 	float: left;
 	margin: 10px 0px;
 	font-family: "Handlee";
@@ -826,13 +809,14 @@ body {
 #kolom-logup {
 	background: #A3ECFF;
 	width: 50%;
-	height: 468px;
+	height: auto;
 	float: left;
 	margin: 10px 0px 10px 0px;
 	font-family: "Handlee";
 	padding-top: 2%
 }
 
+<<<<<<< HEAD
 /*tampilan admin*/
 .out-admin {
 	background: pink;
@@ -855,6 +839,8 @@ body {
 	float: left;
 	margin: 5px 2% 0px 2%;
 }
+=======
+>>>>>>> 922938a5bea02512ab4b00dd75cbd4893a4d0445
 #footer {
 	width: 82%;
 	height: auto;
@@ -1037,7 +1023,7 @@ body {
 
 .text {
 	width: 84%;
-	height: 32px;
+	height: auto;
 	border-radius: 6px;
 	border: solid #00C9FF 1px;
 	padding: 6px;
@@ -1117,7 +1103,7 @@ body {
 	width: 50%;
 	height: auto;
 	padding: 2%;
-	margin: 30px 25% 10px 25%;
+	margin: 49px 25% 10px 25%;
 	border-radius: 8px;
 	font-family: "Handlee";
 }
@@ -1135,7 +1121,7 @@ body {
 	display: block;
 	width: 20%;
 	height: 40px;
-	margin: 10px 40% 0px 40%;
+	margin: 21px 40% 40px 40%;
 	border-radius: 8px;
 	background: #A3ECFF;
 	text-decoration: none;
@@ -1181,7 +1167,7 @@ body {
 .daftar {
 	width: 40%;
 	height: 40px;
-	margin: 10px 7%;
+	margin: 36px 7% 10px;
 	font-size: 20px;
 	border-radius: 8px;
 	background: #A3ECFF;
@@ -1199,3 +1185,125 @@ body {
 	color: #2A00FF;
 	border-radius: 8px;
 }
+
+
+
+/* Breadcrumbs .... */
+
+/*custom font*/
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+
+.breadcrumb {
+	display: inline-block;
+	box-shadow: 0 0 8px -2px rgba(0, 0, 0, 0.35);
+	overflow: hidden;
+	border-radius: 5px;
+	counter-reset: flag;
+	float: left;
+}
+
+.breadcrumb a {
+	text-decoration: none;
+	outline: none;
+	display: block;
+	float: left;
+	font-size: 12px;
+	line-height: 36px;
+	color: white;
+	/*need more margin on the left of links to accomodate the numbers*/
+	padding: 0 10px 0 60px;
+	background: #666;
+	background: linear-gradient(#666, #333);
+	position: relative;
+}
+/*since the first link does not have a triangle before it we can reduce the left padding to make it look consistent with other links*/
+.breadcrumb a:first-child {
+	padding-left: 46px;
+	border-radius: 5px 0 0 5px; /*to match with the parent's radius*/
+}
+.breadcrumb a:first-child:before {
+	left: 14px;
+}
+.breadcrumb a:last-child {
+	border-radius: 0 5px 5px 0; /*this was to prevent glitches on hover*/
+	padding-right: 20px;
+}
+
+/*hover/active styles*/
+.breadcrumb a.active, .breadcrumb a:hover{
+	background: #333;
+	background: linear-gradient(#333, #000);
+}
+.breadcrumb a.active:after, .breadcrumb a:hover:after {
+	background: #333;
+	background: linear-gradient(135deg, #333, #000);
+}
+
+/*adding the arrows for the breadcrumbs using rotated pseudo elements*/
+.breadcrumb a:after {
+	content: '';
+	position: absolute;
+	top: 0; 
+	right: -18px; /*half of square's length*/
+	/*same dimension as the line-height of .breadcrumb a */
+	width: 36px; 
+	height: 36px;
+	/*as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's: 
+	length = 1; diagonal = (1^2 + 1^2)^0.5 = 1.414 (pythagoras theorem)
+	if diagonal required = 1; length = 1/1.414 = 0.707*/
+	transform: scale(0.707) rotate(45deg);
+	/*we need to prevent the arrows from getting buried under the next link*/
+	z-index: 1;
+	/*background same as links but the gradient will be rotated to compensate with the transform applied*/
+	background: #666;
+	background: linear-gradient(135deg, #666, #333);
+	/*stylish arrow design using box shadow*/
+	box-shadow: 
+		2px -2px 0 2px rgba(0, 0, 0, 0.4), 
+		3px -3px 0 2px rgba(255, 255, 255, 0.1);
+	/*
+		5px - for rounded arrows and 
+		50px - to prevent hover glitches on the border created using shadows*/
+	border-radius: 0 5px 0 50px;
+}
+/*we dont need an arrow after the last link*/
+.breadcrumb a:last-child:after {
+	content: none;
+}
+/*we will use the :before element to show numbers*/
+.breadcrumb a:before {
+	content: counter(flag);
+	counter-increment: flag;
+	/*some styles now*/
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	margin: 8px 0;
+	position: absolute;
+	top: 0;
+	left: 30px;
+	background: #444;
+	background: linear-gradient(#444, #222);
+	font-weight: bold;
+}
+
+
+.flat a, .flat a:after {
+	background: white;
+	color: black;
+	transition: all 0.5s;
+}
+.flat a:before {
+	background: white;
+	box-shadow: 0 0 0 1px #ccc;
+}
+.flat a:hover, .flat a.active, 
+.flat a:hover:after, .flat a.active:after{
+	background: #CAF4FF;
+}
+
+
+
+
+
