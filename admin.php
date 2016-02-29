@@ -8,14 +8,14 @@
 <body>
 	<div id="wrapper">
 		<div class="out-admin">
-			<div id="box-atas">
+			<div id="boxatas">
 				<ul>
 					<li><a href="postingan.php">Postingan</a></li>
 					<li><a href="user.php">User</a></li>
 					<li><a href="pengunjung.php">Pengunjung</a></li>
 				</ul>
 			</div>
-			<div id="box-bawah"></div>
+			<div id="boxbawah"></div>
 		</div>
 	</div>
 </body>

@@ -841,14 +841,14 @@ body {
 	margin: 0px 5%;
 	float: left;
 }
-#box-atas {
+#boxatas {
 	background: cyan;
 	height: 100px;
 	width: 96%;
 	margin: 10px 2% 0px 2%;
 	float: left;
 }
-#box-bawah {
+#boxbawah {
 	background: cyan;
 	width: 96%;
 	height: 400px;
