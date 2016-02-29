@@ -41,6 +41,7 @@
 					<a href="artikel.php">Artikel</a>
 					<a href="#" class="active">Judul Artikel</a>
 				</div>
+			</div>
 		</div>
 		<div id="wrapper">
 			<div class="wrap">
