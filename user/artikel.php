@@ -1,11 +1,10 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Artikel</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
 </head>
-<body>
 	<div class="all-wrapper">
 		<div id="header">
 			<div class="log">
@@ -15,6 +14,7 @@
 						<li><a href="about.php">About</a></li>
 						<li><a href="logUp.php">Log Up</a></li>
 						<li><a href="logIn.php">Log In</a></li>
+						<li><a href="logOut.php">Log Out</a></li>
 					</ul>
 				</div>
 			</div>
@@ -35,32 +35,47 @@
 				</form>
 			</div>
 			<div class="_breadcrumb">
-				<!-- another version - flat style with animated hover effect -->
-				<div class="breadcrumb flat">
-					<a href="index.php">Home</a>
-					<a href="artikel.php">Artikel</a>
-					<a href="#" class="active">Judul Artikel</a>
-				</div>
+				<ul>
+					<li id="breadcrumb"><a href="index.php">Home</a></li>
+					<div class="active">Artikel</div>
+				</ul>
 			</div>
 		</div>
 		<div id="wrapper">
 			<div class="wrap">
 				<div class="content">
-					<div id="tulis">
-						<div class="tanggal">02 februari 2016</div>
-						<div class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+					<div id="artikel">
+						<div class="judul-artikel">
+							Lorem ipsum dolor sit amet
+						</div>
+						<div class="out-artikel"> 
+							<div id="photo-artikel"></div>
+							<div id="artikelnya">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+						</div>
 					</div>
-					<div id="out-tulisan">
-						<div class="foto1"></div>
-						<div class="tulisan">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+					<div id="artikel">
+						<div class="judul-artikel">
+							Lorem ipsum dolor sit amet
+						</div>
+						<div class="out-artikel">
+							<div id="photo-artikel"></div>
+							<div id="artikelnya">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+						</div>
 					</div>
-					<div id="tampil-komentar"></div>
-					<div id="comment">
-						<form>
-							<input type="text" name="nama" placeholder="Masukan Nama Anda" class="nama-komentar"></input>
-							<input type="text" name="komentar" class="isi-komentar"></input>
-							<input type="submit" name="kirim" class="kirim"></input>
-						</form>
+					<div id="artikel">
+						<div class="judul-artikel">
+							Lorem ipsum dolor sit amet
+						</div>
+						<div class="out-artikel">
+							<div id="photo-artikel"></div>
+							<div id="artikelnya">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="rightKet">
