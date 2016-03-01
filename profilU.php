@@ -61,17 +61,14 @@
 				<div class="contentuser">
 					<div id="navuser">
 						<ul>
-							<li><a href="jubel.php">Toko</a>
-							<li><a href="artikel.php">Artikel</a></li>
-							<li><a href="tutorial.php">Tutorial</a></li>
-							<li><a href="">Arsip</a></li>
+							<li><a class="btn btn-primary" role="button" data-toggle="collapse" href="getToko.php" aria-expanded="false" aria-controls="collapseExample">Toko</a></li>
+							<li><a class="btn btn-primary" role="button" data-toggle="collapse" href="getArtikel.php" aria-expanded="false" aria-controls="collapseExample">Artikel</a></li>
+							<li><a class="btn btn-primary" role="button" data-toggle="collapse" href="getTutorial.php" aria-expanded="false" aria-controls="collapseExample">Tutorial</a></li>
+							<li><a class="btn btn-primary" role="button" data-toggle="collapse" href="getArsip.php" aria-expanded="false" aria-controls="collapseExample">Arsip</a></li>
 						</ul>
 					</div>
 					<div class="out-profil">
 						<div id="artikel">
-							<a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-							  Link with href
-							</a>
 							<div class="judul-artikel">
 								Lorem ipsum dolor sit amet
 							</div>
