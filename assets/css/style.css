@@ -507,7 +507,7 @@ body {
 	margin-right: 2%;
 	float: left;
 	font-size: 100px;
-	background: url(../images/aksesoris.jpg);
+	background: url(../images/aksesoris2.jpg);
     -webkit-background-size: 100% 140px;
     -moz-background-size: 100% 140px;
     -o-background-size: 100% 140px;
@@ -519,11 +519,11 @@ body {
 	height: 140px;
 	float: left;
 	font-size: 100px;
-    background: url(../images/makanan.jpg);
-    -webkit-background-size: 49% 140px;
-    -moz-background-size: 49% 140px;
-    -o-background-size: 49% 140px;
-    background-size: 49% 140px;
+    background: url(../images/makanan1.jpg);
+    -webkit-background-size: 100% 140px;
+    -moz-background-size: 100% 140px;
+    -o-background-size: 100% 140px;
+    background-size: 100% 140px;
 }
 
 .tas {
@@ -816,7 +816,6 @@ body {
 	padding-top: 2%
 }
 
-<<<<<<< HEAD
 /*tampilan admin*/
 .out-admin {
 	background: pink;
@@ -839,8 +838,7 @@ body {
 	float: left;
 	margin: 5px 2% 0px 2%;
 }
-=======
->>>>>>> 922938a5bea02512ab4b00dd75cbd4893a4d0445
+
 #footer {
 	width: 82%;
 	height: auto;
