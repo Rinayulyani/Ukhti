@@ -69,6 +69,9 @@
 					</div>
 					<div class="out-profil">
 						<div id="artikel">
+							<a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+							  Link with href
+							</a>
 							<div class="judul-artikel">
 								Lorem ipsum dolor sit amet
 							</div>

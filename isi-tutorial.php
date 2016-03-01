@@ -35,11 +35,12 @@
 				</form>
 			</div>
 			<div class="_breadcrumb">
-				<ul>
-					<li id="breadcrumb"><a href="index.php">Home</a></li>
-					<li id="breadcrumb"><a href="tutorial.php">Tutorial</a></li>
-					<div class="active">(Judul Tutorial)</div>
-				</ul>
+				<!-- another version - flat style with animated hover effect -->
+				<div class="breadcrumb flat">
+					<a href="index.php">Home</a>
+					<a href="tutorial.php">Tutorial</a>
+					<a href="#" class="active">Judul Tutorial</a>
+				</div>
 			</div>
 		</div>
 		<div id="wrapper">
