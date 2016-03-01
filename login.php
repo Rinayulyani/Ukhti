@@ -11,7 +11,7 @@
 			<div id="log-in">
 				<form>
 					<input type="text" name="input-login" placeholder="Email" class="login-email"></input>
-					<input type="text" name="input-login" placeholder="Password" class="login-password"></inpu>
+					<input type="password" name="input-login" placeholder="Password" class="login-password"></inpu>
 					<input type="submit" name="masuk" value="Masuk" class="masuk"></input>
 				</form>
 			</div>
