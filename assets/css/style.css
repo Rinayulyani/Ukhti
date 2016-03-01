@@ -748,10 +748,27 @@ body {
 	margin: 10px 0% 0px;
 	padding-left: 10%;
 }
+
+#photo-toko {
+	width: 25%;
+	height: 30px;
+	float: left;
+}
+
+#ket-toko {
+	width: 74%;
+	height: 30px;
+	float: left;
+	margin-left: 1%;
+}
+
+
+
  /*log-in*/
+
 .out-login {
 	width: 100%;
-	height: 657px;
+	height: auto;
 	float: left;
 	background: url(../images/login.png);
 	background-size: 100% 100%;
@@ -760,7 +777,7 @@ body {
 #log-in {
 	width: 51%;
 	height: auto;
-	margin: 298px 25% 120px 24%;
+	margin: 298px 25% 100px 24%;
 	float: left;
 	border-radius: 10px;
 }
