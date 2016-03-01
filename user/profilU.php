@@ -1,10 +1,11 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Artikel</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Profil</title>
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
 </head>
+<body>
 	<div class="all-wrapper">
 		<div id="header">
 			<div class="log">
@@ -14,7 +15,6 @@
 						<li><a href="about.php">About</a></li>
 						<li><a href="logUp.php">Log Up</a></li>
 						<li><a href="logIn.php">Log In</a></li>
-						<li><a href="logOut.php">Log Out</a></li>
 					</ul>
 				</div>
 			</div>
@@ -35,54 +35,65 @@
 				</form>
 			</div>
 			<div class="_breadcrumb">
-				<ul>
-					<li id="breadcrumb"><a href="index.php">Home</a></li>
-					<div class="active">Artikel</div>
-				</ul>
+				<!-- another version - flat style with animated hover effect -->
+				<div class="breadcrumb flat">
+					<a href="index.php">Home</a>
+					<a href="user.php">User</a>
+					<a href="#" class="active">Nama User</a>
+				</div>
 			</div>
 		</div>
 		<div id="wrapper">
 			<div class="wrap">
-				<div class="content">
-					<div id="artikel">
-						<div class="judul-artikel">
-							Lorem ipsum dolor sit amet
-						</div>
-						<div class="out-artikel"> 
-							<div id="photo-artikel"></div>
-							<div id="artikelnya">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</div>
-						</div>
-					</div>
-					<div id="artikel">
-						<div class="judul-artikel">
-							Lorem ipsum dolor sit amet
-						</div>
-						<div class="out-artikel">
-							<div id="photo-artikel"></div>
-							<div id="artikelnya">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</div>
-						</div>
-					</div>
-					<div id="artikel">
-						<div class="judul-artikel">
-							Lorem ipsum dolor sit amet
-						</div>
-						<div class="out-artikel">
-							<div id="photo-artikel"></div>
-							<div id="artikelnya">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</div>
-						</div>
+				<div class="namauser">Ukhti</div>
+				<div class="phobiouser">
+					<div id="photouser"></div>
+					<div id="biodatauser">
+						Tempat tinggal: <br>
+						TTL: <br>
+						Jenis Kelamin: <br>
+						Email: <br>
+						No. Hp: <br>
+						Hal yang disukai: <br>
+						Kutipan Hadits:
 					</div>
 				</div>
-				<div class="rightKet">
-					<div id="arsip">
-						<div class="judul">Arsip</div>
-						<div class="isi-arsip">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<div class="contentuser">
+					<div id="navuser">
+						<ul>
+							<li><a href="jubel.php">Toko</a></li>
+							<div class="tambah"><a href="insert_toko.php">+</a></div>
+							<li><a href="artikel.php">Artikel</a></li>
+							<div class="tambah"><a href="insert_artikel.php">+</a></div>
+							<li><a href="tutorial.php">Tutorial</a></li>
+							<div class="tambah"><a href="insert_tutorial.php">+</a></div>
+							<li><a href="">Arsip</a></li>
+						</ul>
+					</div>
+					<div class="out-profil">
+						<div id="artikel">
+							<div class="judul-artikel">
+								Lorem ipsum dolor sit amet
+							</div>
+							<div class="out-artikel">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+						</div>
+						<div id="artikel">
+							<div class="judul-artikel">
+								Lorem ipsum dolor sit amet
+							</div>
+							<div class="out-artikel">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+						</div>
+						<div id="artikel">
+							<div class="judul-artikel">
+								Lorem ipsum dolor sit amet
+							</div>
+							<div class="out-artikel">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
 						</div>
 					</div>
 				</div>

@@ -640,11 +640,13 @@ body {
 }
 
 #fotoadmin {
-	background: pink;
-	width: 60%;
+	background: url(../images/dhia-profil.jpg);
+	width: 60.29%;
 	height: 200px;
 	float: left;
-	padding: 0px 20%;
+	margin: 0px 20%;
+	background-size: 100% 100%;
+	border-radius: 8px;
 }
 
 #ketadmin {
@@ -715,7 +717,7 @@ body {
 #navuser ul li {
 	position: relative;
 	float: left;
-	width: 25%;
+	width: 23.5%;
 	text-align: center;
 }
 
@@ -732,11 +734,13 @@ body {
 	border-radius: 5px;
 }
 
-#navuser ul li a:hover{
-	color: #FF1E27;
-	background: #FFE6FF;
-	border-radius: 2px
+.tambah {
+	width: 2%;
+	height: auto;
+	float: left;
+	padding: 10px 0px;
 }
+
 .out-profil { 
 	width: 90%; 
 	height: auto;
@@ -818,21 +822,51 @@ body {
 
 /*tampilan admin*/
 .out-admin {
-	background: pink;
 	height: auto;
 	width: 90%;
 	margin: 0px 5%;
 	float: left;
+	border-radius: 10px;
 }
 #boxatas {
-	background: cyan;
+	background: #0dfefa;
 	height: 100px;
 	width: 96%;
 	margin: 10px 2% 0px 2%;
 	float: left;
 }
+#boxatas ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#boxatas ul li {
+	position: relative;
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin: 0px 4%;
+}
+#boxatas ul li a {
+	display: block;
+	color: #ff8be7;
+	padding: 10px 0px;
+	text-decoration: none;
+	margin: 16px;
+	height: 50px;
+	font-size: 40px;
+	font-family: "Handlee";
+	box-shadow: 0px 0px 10px 8px #ffd1fe;
+	border-radius: 8px;
+}
+#boxatas ul li a:hover{
+	color: #fff;
+	background: #ffd1fe;
+	border-radius: 8px;
+}
+
 #boxbawah {
-	background: cyan;
+	background: #0dfefa;
 	width: 96%;
 	height: 400px;
 	float: left;
@@ -1097,6 +1131,11 @@ body {
 	color: #FFAEEE;
 	background: #fff;
 }
+.radiojk {
+	width: 13%;
+	height: 17px;
+	margin: 18px 0px;
+}
 .login-email {
 	width: 50%;
 	height: auto;
@@ -1209,18 +1248,15 @@ body {
 	line-height: 36px;
 	color: white;
 	/*need more margin on the left of links to accomodate the numbers*/
-	padding: 0 10px 0 60px;
+	padding: 0 10px 0 40px;
 	background: #666;
 	background: linear-gradient(#666, #333);
 	position: relative;
 }
 /*since the first link does not have a triangle before it we can reduce the left padding to make it look consistent with other links*/
 .breadcrumb a:first-child {
-	padding-left: 46px;
+	padding-left: 27px;
 	border-radius: 5px 0 0 5px; /*to match with the parent's radius*/
-}
-.breadcrumb a:first-child:before {
-	left: 14px;
 }
 .breadcrumb a:last-child {
 	border-radius: 0 5px 5px 0; /*this was to prevent glitches on hover*/
@@ -1268,33 +1304,12 @@ body {
 .breadcrumb a:last-child:after {
 	content: none;
 }
-/*we will use the :before element to show numbers*/
-.breadcrumb a:before {
-	content: counter(flag);
-	counter-increment: flag;
-	/*some styles now*/
-	border-radius: 100%;
-	width: 20px;
-	height: 20px;
-	line-height: 20px;
-	margin: 8px 0;
-	position: absolute;
-	top: 0;
-	left: 30px;
-	background: #444;
-	background: linear-gradient(#444, #222);
-	font-weight: bold;
-}
 
 
 .flat a, .flat a:after {
 	background: white;
 	color: black;
 	transition: all 0.5s;
-}
-.flat a:before {
-	background: white;
-	box-shadow: 0 0 0 1px #ccc;
 }
 .flat a:hover, .flat a.active, 
 .flat a:hover:after, .flat a.active:after{
