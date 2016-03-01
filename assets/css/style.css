@@ -442,7 +442,7 @@ body {
 	float: left;
 	margin: 0px 3% 0px 1%;
 	font-size: 100px;
-	background: url(../images/baju1.jpg);
+	background: url(../images/baju.jpg);
     -webkit-background-size: 100% 285px;
     -moz-background-size: 100% 285px;
     -o-background-size: 100% 285px;
@@ -507,7 +507,7 @@ body {
 	margin-right: 2%;
 	float: left;
 	font-size: 100px;
-	background: url(../images/aksesoris.jpg);
+	background: url(../images/aksesoris2.jpg);
     -webkit-background-size: 100% 140px;
     -moz-background-size: 100% 140px;
     -o-background-size: 100% 140px;
@@ -519,11 +519,11 @@ body {
 	height: 140px;
 	float: left;
 	font-size: 100px;
-    background: url(../images/makanan.jpg);
-    -webkit-background-size: 49% 140px;
-    -moz-background-size: 49% 140px;
-    -o-background-size: 49% 140px;
-    background-size: 49% 140px;
+    background: url(../images/makanan1.jpg);
+    -webkit-background-size: 100% 140px;
+    -moz-background-size: 100% 140px;
+    -o-background-size: 100% 140px;
+    background-size: 100% 140px;
 }
 
 .tas {
